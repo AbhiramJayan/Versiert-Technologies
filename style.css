@@ -1,0 +1,442 @@
+
+  *{
+    background-color: #000000;
+  display: flexbox;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    background-color: transparent;
+}
+.nav-bar img{
+    height: 100px;
+    margin-left: 100px;
+   padding-top: 0;
+}
+.nav-bar p{
+    color: white;
+    margin-top: 15px;
+    font-family: "Teko", sans-serif;
+    font-size: 50px;
+}
+.abt{
+    margin-left: 600px;
+  margin-top: 35px;
+  background: #000000;
+  border-radius: 999px;
+  box-shadow: #000000 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.abt:hover{
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    background-color: #5a57e9;
+}
+.cnt{
+    margin-left: 50px;
+  margin-top: 35px;
+  background: #000000;
+  border-radius: 999px;
+  box-shadow: #000000 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.cnt:hover{
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    background-color: #5a57e9;
+}
+.prj{
+    margin-left: 50px;
+  margin-top: 35px;
+  background: #000000;
+  border-radius: 999px;
+  box-shadow: #000000 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.prj:hover{
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    background-color: #5a57e9;
+}
+.crs{
+    margin-left: 50px;
+  margin-top: 35px;
+  background: #000000;
+  border-radius: 999px;
+  box-shadow: #000000 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.crs:hover{
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    background-color: #5a57e9;
+}
+.main{
+    height: auto;
+    display: flex;
+   background-color: transparent; 
+}
+.main p{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family:"Black Ops One", system-ui;
+}
+.srch{
+   position: absolute;
+    font-size: 20px;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    color: #FFFFFF;
+    background-color: transparent;
+    height: 70px;
+    width: 550px;
+    margin-top: 280px;
+    margin-left: 150px;
+    border-radius: 40px;
+    stroke: #FFFFFF;
+}
+.btnimg{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 280px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+}
+.cham-logo{
+    filter:grayscale(100%) ;
+    transform: scaleX(-1);
+    position: relative;
+    margin-left: 800px;
+}
+.cham-logo:hover{
+    transition: 0.3s, color 0.3s;
+    filter: grayscale(0%);
+}
+.img-glry{
+    border-radius: 999px;
+    box-sizing: border-box;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    position: absolute;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    margin-left: 350px;
+    margin-top: 400px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+}
+.img-glry:hover{
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    background-color: #5a57e9;
+}
+.aud{
+    margin-left: 50px;
+    margin-top: 35px;
+    background: #000000;
+    border-radius: 999px;
+    box-shadow: #000000 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+.aud:hover{
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    background-color: #5a57e9;
+}
+.imgz{
+    padding-top: 70px;
+    height: auto;
+    padding-left: 100px;
+    background-color: transparent;
+}
+.one{
+    height: 150px;
+    width: 150px;
+    padding-left: 90px;
+}
+.two{
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+.three{
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+.four{
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+.five{
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+.six{
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+.seven{
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+.eight{
+    height: 150px;
+    width: 150px;
+    padding-left: 30px;
+}
+
+.about-us{
+    padding-top: 10%;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+}
+.sub-abt{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+.about-us p{
+    text-align: justify;
+    margin-top: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-family: "Alata", sans-serif;
+    line-height: 2;
+}
+.about-us h3{
+    margin-top: 40px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: "Amaranth", sans-serif;
+}
+.team{
+    display: flex;
+    position: relative;
+    background-color:transparent;
+    justify-content: center;
+    padding: 0%;
+}
+.team h3{
+    padding-top: 10%;
+    position: absolute;
+color: #FFFFFF;
+font-family: "Amaranth", sans-serif;
+}
+.ceo{
+    position: relative;
+    background-color:transparent;
+    padding-top: 13%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hr{
+    position: relative;
+    background-color: transparent;
+    padding-top: 13%; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.namec{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Alata", sans-serif;
+    padding-left: 23%;
+    padding-top: 10%;
+}
+.desig{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Alata", sans-serif;
+    padding-left: 42%;
+    padding-top: 5%;
+}
+.comp{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Alata", sans-serif;
+    padding-left: 25%;
+    padding-top: 2%;
+}
+.nameh{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Alata", sans-serif;
+    padding-left: 10%;
+    padding-top: 15%;
+}
+.comph{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Alata", sans-serif;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+.desigh{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Alata", sans-serif;
+    padding-left: 54%;
+    padding-top: 9%;
+}
+.team1{
+    display: flex;
+    height: 380px;
+    width: 670px;
+    position: absolute;
+    border: 2px solid white;
+   margin-top: 60%;
+    border-radius: 20px;
+}
+.team1 img{
+    position: absolute;
+    background-color: transparent;
+}
+.team1 p{
+    font-family: "Alata", sans-serif;
+    color: #FFFFFF;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.hist{
+    display:flex ;
+    justify-content: center;
+    width: 700px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 55px;
+}
+.hist P{
+    text-align: justify;
+    margin-top: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-family: "Alata", sans-serif;
+    line-height: 2;
+}
+.hist h3{
+    margin-top: 40px;
+    position: absolute;
+    color: #ffffff;
+    font-family: "Amaranth", sans-serif;
+}
